@@ -1,0 +1,9 @@
+<!-- Fichier de connection à la base de données -->
+<?php
+try{
+$bdd = new PDO('mysql:host=185.98.131.90;dbname=contr974563;charset=utf8','contr974563', 'pnzihiwuvb');
+}
+catch (exception $e){
+    die('Erreur: ' .$e->getMessage());
+}
+?>

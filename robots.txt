@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /mention.php
+Disallow: /contact.php
+Sitemap: http://www.contraste.xyz/sitemap.xml
